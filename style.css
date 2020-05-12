@@ -1,0 +1,46 @@
+ /*START NAV-BAR*/
+ .nav {
+   height: 50px;
+   width: 100%;
+   background-color: transparent;
+   position: fixed;
+   display: inline-flex;
+   justify-content: space-around;
+ }
+
+ .nav>.nav-header {
+   display: inline;
+ }
+
+ .nav-logo {
+   width: 100px;
+ }
+
+ .nav>.nav-btn {
+   display: none;
+ }
+
+ .nav>.nav-links {
+   display: inline;
+   font-size: 18px;
+   font-family: 'Anton', sans-serif;
+ }
+
+ .nav>.nav-links>a {
+   display: inline-block;
+   padding: 13px 60px 13px 60px;
+   text-decoration: none;
+   color: RGB(255, 100, 0);
+ }
+
+ .nav>.nav-links>a:hover {
+   background-color: lightgray;
+   border-radius: 25px;
+   padding: 13px 60px 13px 60px;
+ }
+
+ /*END NAV-BAR*/
+
+ h1 {
+   padding-top: 100px;
+ }
