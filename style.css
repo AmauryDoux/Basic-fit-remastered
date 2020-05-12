@@ -1,0 +1,48 @@
+body {
+    color: black;
+    background-color: black;
+    background-image: url(images/thumb2-bodybuilding-barbell-biceps-exercises-fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(253, 120, 71);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.slogan {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(246, 193, 19);
+    font-family: 'Lobster', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(253, 120, 71);
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+    }
+    .slogan {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(246, 193, 19);
+        font-family: 'Lobster', cursive;
+    }
+}
