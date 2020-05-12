@@ -27,6 +27,27 @@ body {
     font-family: 'Lobster', cursive;
 }
 
+.videoz {
+    display: flex;
+    text-align: center;
+}
+
+video {
+    width: 70%;
+}
+
+.Player h2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Bebas";
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    text-shadow: #c0c0c0 6px 0 0;
+}
+
 @media only screen and (max-width: 768px) {
     .title {
         margin-left: auto;
@@ -44,5 +65,14 @@ body {
         font-size: 25px;
         color: rgb(246, 193, 19);
         font-family: 'Lobster', cursive;
+    }
+    body {
+        color: black;
+        background-color: black;
+        background-image: url(images/thumb2-bodybuilding-barbell-biceps-exercises-fitness.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
     }
 }
