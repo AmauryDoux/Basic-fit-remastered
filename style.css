@@ -1,11 +1,6 @@
-body {
-    color: black;
-    background-color: black;
-    background-image: url(images/thumb2-bodybuilding-barbell-biceps-exercises-fitness.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+:root {
+    --accent: green;
+    --overlay: rgba(23, 25, 29, 0.8):
 }
 
 .title {
@@ -27,6 +22,91 @@ body {
     font-family: 'Lobster', cursive;
 }
 
+html,
+body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    height: 290px;
+    width: 350px;
+    margin: 0 20px;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: coral;
+}
+
+.card:hover {
+    height: 470px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .top-text {
+    padding: 5px;
+}
+
+.card .top-text .name {
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+}
+
+.card .top-text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    line-height: 20px;
+}
+
+.card .bottom-text {
+    padding: 0 20px 10px 20px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.card:hover {
+    height: 470px;
+}
+
+.card:hover .bottom-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .bottom-text .text {
+    text-align: justify;
+}
+
+button {
+    opacity: 15%;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    transform: scale(0.9);
+    transition: cubic-bezier(0.2s);
+    display: inline-flex;
+}
+
 .videoz {
     display: flex;
     text-align: center;
@@ -46,6 +126,12 @@ video {
     color: white;
     text-align: center;
     text-shadow: #c0c0c0 6px 0 0;
+}
+
+.part2 {
+    background-image: url(images/fitness-model-women-sports-monochrome-dumbbell-1080P-wallpaper-middle-size.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
