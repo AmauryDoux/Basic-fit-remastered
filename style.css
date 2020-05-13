@@ -67,6 +67,8 @@ body {
     width: 100%;
     object-fit: cover;
     position: relative;
+    float: left;
+    background-size: cover;
 }
 
 .card .top-text {
