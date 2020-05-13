@@ -1,0 +1,99 @@
+:root {
+    --primary-color: rgba(255, 100, 0, 1);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --program-title-font: 'Anton', sans-serif;
+}
+
+#programs { 
+    margin: 0;
+    width: 100%;
+    height: 915px;
+    background: url(./images/fitness-model-women-sports-monochrome-dumbbell-1080P-wallpaper-middle-size.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.program-container{
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.program{
+    width: 25%;
+    min-width: 25%;
+    height: auto;
+    background-color: lightgray;
+    opacity:0.8;
+    border-radius: 10px;
+    border:2px solid ;
+    border-color: var(--primary-color);
+}
+
+.program > .program-title-container > h2{
+    font-size: 35px;
+}
+
+.program > .program-title-container{
+    text-align: center;
+    font-family: var(--program-title-font);
+    color: var(--primary-color);
+}
+
+.price-text{
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.small-text{
+    font-size: 30px;
+}
+
+.btn-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.suscribe-btn {
+    padding: 10px 50px;
+    font-family: var(--program-title-font);
+    background-color: #7322c9;
+    color: lightgray;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.membership-desc-container{
+    padding: 10px;
+}
+
+.desc-text{
+    color: black !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .program-container{
+        text-align: -webkit-center;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .program{
+        width: 50%;
+        height: auto !important;
+        margin-bottom: 70px;
+    }
+
+    #programs{
+        height: auto;
+    }
+}
