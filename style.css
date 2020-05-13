@@ -8,7 +8,7 @@
     margin-right: auto;
     text-align: center;
     font-size: 80px;
-    color: rgb(253, 120, 71);
+    color: #D96C06;
     font-family: 'Anton', sans-serif;
     letter-spacing: 3px;
 }
@@ -22,28 +22,38 @@
     font-family: 'Lobster', cursive;
 }
 
-html,
-body {
-    height: 100%;
+html {
+    height: 85%;
     display: grid;
     place-items: center;
     text-align: center;
-    background-color: rgb(253, 253, 253);
+}
+
+body {
+    color: black;
+    background-color: black;
+    background-image: url(images/164917.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 0 40px;
 }
 
 .card {
     height: 290px;
-    width: 350px;
-    margin: 0 20px;
+    max-width: 350px;
+    margin: 0 8px 44px;
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    background-color: coral;
+    background-color: rgb(226, 39, 39);
 }
 
 .card:hover {
@@ -55,6 +65,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: relative;
 }
 
 .card .top-text {
@@ -96,16 +107,7 @@ body {
     text-align: justify;
 }
 
-button {
-    opacity: 15%;
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-    border-radius: 16px;
-    transform: scale(0.9);
-    transition: cubic-bezier(0.2s);
-    display: inline-flex;
-}
+button {}
 
 .videoz {
     display: flex;
@@ -126,12 +128,6 @@ video {
     color: white;
     text-align: center;
     text-shadow: #c0c0c0 6px 0 0;
-}
-
-.part2 {
-    background-image: url(images/fitness-model-women-sports-monochrome-dumbbell-1080P-wallpaper-middle-size.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
@@ -160,5 +156,16 @@ video {
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
+    }
+}
+
+@media only screen and (max-width: 978px) {
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card {
+        max-width: 700px;
+        margin: 20px 0;
     }
 }
