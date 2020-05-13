@@ -4,6 +4,7 @@
 }
 
 .title {
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -44,16 +45,16 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 14px 40px;
 }
 
 .card {
     height: 290px;
     max-width: 350px;
-    margin: 0 8px 44px;
+    margin: 0 30px 44px;
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(226, 39, 39);
+    background-color: rgb(22, 21, 21);
 }
 
 .card:hover {
@@ -75,20 +76,22 @@ body {
 .card .top-text .name {
     font-size: 25px;
     font-weight: 600;
-    color: blue;
+    color: rgb(214, 118, 9);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .card .top-text p {
     font-size: 20px;
     font-weight: 600;
-    color: black;
+    color: whitesmoke;
     line-height: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .card .bottom-text {
     padding: 0 20px 10px 20px;
     margin-top: 80px;
-    background-color: whitesmoke;
+    background-color: rgb(2, 2, 3);
     opacity: 0;
     visibility: hidden;
     transition: 0.1s;
@@ -105,29 +108,14 @@ body {
 
 .card .bottom-text .text {
     text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
 }
 
 button {}
 
-.videoz {
-    display: flex;
-    text-align: center;
-}
-
 video {
     width: 70%;
-}
-
-.Player h2 {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Bebas";
-    font-size: 80px;
-    color: white;
-    text-align: center;
-    text-shadow: #c0c0c0 6px 0 0;
 }
 
 @media only screen and (max-width: 768px) {
