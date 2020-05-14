@@ -4,7 +4,7 @@
     --program-title-font: 'Anton', sans-serif;
 }
 
-#programs { 
+#programs-akd { 
     margin: 0;
     width: 100%;
     height: 915px;
@@ -16,13 +16,13 @@
   }
 
 
-.program-container{
+.program-container-akd{
     padding-top: 160px;
     display: flex;
     justify-content: space-around;
 }
 
-.program{
+.program-akd{
     width: 25%;
     min-width: 25%;
     height: auto;
@@ -33,33 +33,33 @@
     border-color: var(--primary-color);
 }
 
-.program > .program-title-container > h2{
+.program-akd > .program-title-container-akd > h2{
     font-size: 35px;
 }
 
-.program > .program-title-container{
+.program-akd > .program-title-container-akd{
     text-align: center;
     font-family: var(--program-title-font);
     color: var(--primary-color);
 }
 
-.price-text{
+.price-text-akd{
     color: black;
     font-weight: bold;
     font-size: 60px;
     padding-top: 30px;
 }
 
-.small-text{
+.small-text-akd{
     font-size: 30px;
 }
 
-.btn-container{
+.btn-container-akd{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.suscribe-btn {
+.suscribe-btn-akd {
     padding: 10px 50px;
     font-family: var(--program-title-font);
     background-color: #7322c9;
@@ -72,28 +72,28 @@
     border: 0;
 }
 
-.membership-desc-container{
+.membership-desc-container-akd{
     padding: 10px;
 }
 
-.desc-text{
+.desc-text-akd{
     color: black !important;
 }
 
 @media only screen and (max-width: 1200px) {
-    .program-container{
+    .program-container-akd{
         text-align: -webkit-center;
         display: block;
         margin-bottom: 30px;
     }
 
-    .program{
+    .program-akd{
         width: 50%;
         height: auto !important;
         margin-bottom: 70px;
     }
 
-    #programs{
+    #programs-akd{
         height: auto;
     }
 }
