@@ -5,7 +5,9 @@
     --menu-font: 'Anton', sans-serif;
 }
 
+
 /*START NAV-BAR*/
+
 .nav-akd {
     height: 50px;
     width: 100%;
@@ -38,14 +40,18 @@
     padding: 13px 60px 13px 60px;
 }
 
+
 /* Burger Menu */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /* MENU STYLES */
+
 .menu-wrap-akd {
     display: none;
     position: fixed;
@@ -79,7 +85,9 @@
     justify-content: center;
 }
 
+
 /* Hamburger Line */
+
 .menu-wrap-akd .hamburger-akd>div {
     position: relative;
     flex: none;
@@ -92,7 +100,9 @@
     transition: all 0.4s ease;
 }
 
+
 /* Hamburger Lines - Top & Bottom */
+
 .menu-wrap-akd .hamburger-akd>div::before,
 .menu-wrap-akd .hamburger-akd>div::after {
     content: '';
@@ -104,29 +114,39 @@
     background: inherit;
 }
 
+
 /* Moves Line Down */
+
 .menu-wrap-akd .hamburger-akd>div::after {
     top: 10px;
 }
 
+
 /* Toggler Animation */
+
 .menu-wrap-akd .toggler-akd:checked+.hamburger-akd>div {
     transform: rotate(135deg);
 }
 
+
 /* Turns Lines Into X */
+
 .menu-wrap-akd .toggler-akd:checked+.hamburger-akd>div:before,
 .menu-wrap-akd .toggler-akd:checked+.hamburger-akd>div:after {
     top: 0;
     transform: rotate(90deg);
 }
 
+
 /* Rotate On Hover When Checked */
+
 .menu-wrap-akd .toggler-akd:checked:hover+.hamburger-akd>div {
     transform: rotate(225deg);
 }
 
+
 /* Show Menu */
+
 .menu-wrap-akd .toggler-akd:checked~.menu-akd {
     visibility: visible;
 }
@@ -192,18 +212,16 @@
 .menu-wrap-akd .menu-akd>div>div>ul>li>a:hover {
     background-color: lightgray;
     border-radius: 25px;
-    padding: 13px 60px 13px 60px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 740px) {
     .nav-akd {
         display: block;
     }
-
     .nav-akd>.link-container-akd>.nav-links-akd {
         display: block;
     }
-
     .menu-wrap-akd {
         display: flex;
         position: fixed;
@@ -211,19 +229,12 @@
         right: 0px;
         z-index: 1;
     }
-
     .link-akd {
         display: none !important;
     }
-}
 
-@media only screen and (max-width: 890px) {
-    .nav-akd>.link-container-akd>.nav-links-akd>a {
-        padding: 13px 30px 13px 30px;
-    }
-
-    .nav-akd>.link-container-akd>.nav-links-akd>a:hover {
-        padding: 13px 30px 13px 30px;
+    .nav-logo-akd{
+        display: none;
     }
 }
 
