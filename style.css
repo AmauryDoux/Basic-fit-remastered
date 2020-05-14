@@ -1,3 +1,7 @@
+h1 {
+  padding-top: 100px;
+}
+
 :root {
     --accent: green;
     --overlay: rgba(23, 25, 29, 0.8):
@@ -31,6 +35,8 @@ html {
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
     color: black;
     background-color: black;
     background-image: url(images/164917.jpg);
