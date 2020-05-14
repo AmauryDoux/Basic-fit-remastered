@@ -146,6 +146,9 @@ video {
         background-position: center center;
         background-attachment: fixed;
     }
+    .program-title-akd {
+      font-size: .9em;
+    }
 }
 
 @media only screen and (max-width: 978px) {
