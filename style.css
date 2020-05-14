@@ -7,7 +7,7 @@ h1 {
     --overlay: rgba(23, 25, 29, 0.8):
 }
 
-.title {
+.title-ad {
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-.slogan {
+.slogan-ad {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -46,7 +46,7 @@ body {
     background-attachment: fixed;
 }
 
-.container {
+.container-ad {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -54,7 +54,7 @@ body {
     padding: 14px 40px;
 }
 
-.card {
+.card-ad {
     height: 290px;
     max-width: 350px;
     margin: 0 30px 44px;
@@ -64,12 +64,12 @@ body {
     border-radius: 0.3em;
 }
 
-.card:hover {
+.card-ad:hover {
     height: 470px;
     box-shadow: 5px 6px 9px rgba(248, 232, 2, 0.2);
 }
 
-.card .img img {
+.card-ad .img-ad img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -78,18 +78,18 @@ body {
     background-size: cover;
 }
 
-.card .top-text {
+.card-ad .top-text-ad {
     padding: 5px;
 }
 
-.card .top-text .name {
+.card-ad .top-text-ad .name-ad {
     font-size: 25px;
     font-weight: 600;
     color: rgb(241, 187, 7);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.card .top-text p {
+.card-ad .top-text-ad p {
     font-size: 22px;
     font-weight: 600;
     color: whitesmoke;
@@ -97,7 +97,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.card .bottom-text {
+.card-ad .bottom-text-ad {
     padding: 0 20px 10px 20px;
     margin-top: 60px;
     background-color: rgb(22, 21, 21);
@@ -106,16 +106,16 @@ body {
     transition: 0.1s;
 }
 
-.card:hover {
+.card-ad:hover {
     height: 470px;
 }
 
-.card:hover .bottom-text {
+.card-ad:hover .bottom-text-ad {
     opacity: 1;
     visibility: visible;
 }
 
-.card .bottom-text .text {
+.card-ad .bottom-text-ad .text-ad {
     margin-top: auto;
     text-align: justify;
     color: rgb(241, 187, 7);
@@ -127,7 +127,7 @@ video {
 }
 
 @media only screen and (max-width: 768px) {
-    .title {
+    .title-ad {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -136,7 +136,7 @@ video {
         font-family: 'Anton', sans-serif;
         letter-spacing: 3px;
     }
-    .slogan {
+    .slogan-ad {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -156,11 +156,11 @@ video {
 }
 
 @media only screen and (max-width: 978px) {
-    .container {
+    .container-ad {
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .card {
+    .card-ad {
         max-width: 700px;
         margin: 20px 0;
     }
