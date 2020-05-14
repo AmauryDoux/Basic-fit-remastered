@@ -8,9 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navBar.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 
 <body>
+
     <!-- Start Nav-Bar -->
     <div class="nav-akd">
         <div class="link-container-akd">
@@ -46,26 +53,97 @@
                         <li><a href="index.html#coaches"><i>Coach perso</i></a></li>
                         <li><a href="index.html#contactUs"><i>Contactez-nous</i></a></li>
                     </ul>
+                  
+                  
+    <h1 class="title">BASIC FIT</h1>
+    <h1 class="slogan">Deviens une machine avec nos programmes !!</h1>
+    <!-- <i class="far fa-play"></i> -->
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/jO-Vh75nSK4?t=12"> <img src="images/14.jpg">
+                </a>
+            </div>
+
+            <div class="top-text">
+                <div class="name">Workout Trainer</div>
+                <p>1500 Calories</p>
+            </div>
+            <div class="bottom-text">
+                <div class="text">L'utilisateur se voit suggérer des entraînement très variés qui vont de la séance d'abdominaux faciles au HIIT-entraînement de haute intensité-, en passant par des exercices de Pilates et le yoga.</div>
+                <div class="btn">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/jO-Vh75nSK4?t=12"> <img src="images/12.jpg">
+                </a>
+
+            </div>
+            <div class="top-text">
+                <div class="name">Body Wandertea</div>
+                <p>1100 Calories</p>
+            </div>
+            <div class="bottom-text">
+                <div class="text">Mélange de cardio et d'exercices de musculation, le Body Guide Wandertea s'adresse davantage à celles et ceux qui pratiquent déjà un sport mais de manière irrégulière et souhaitent entamer une remise en forme.</div>
+                <div class="btn">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/jO-Vh75nSK4?t=12"> <img src="images/13.jpg">
+                </a>
+
+            </div>
+            <div class="top-text">
+                <div class="name">Fizzup</div>
+                <p>1300 Calories</p>
+            </div>
+            <div class="bottom-text">
+                <div class="text"> Fizzup propose un programme d'entraînement de trois séances par semaine sans matériel et sur six semaines gratuitement. Au-delà, un abonnement payant est proposé pour aller plus loin dans le coaching et la personnalisation des exercices.
+                </div>
+                <div class="btn">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/jO-Vh75nSK4?t=12"> <img src="images/1.jpg">
+                </a>
+
+            </div>
+            <div class="top-text">
+                <div class="name">Fit It</div>
+                <p>1400 Calories</p>
+            </div>
+            <div class="bottom-text">
+                <div class="text">Chaque entraînement se découpe en trois circuits (de dix minutes chacun) contenant chacun six exercices. Le modèle se fonde sur le "circuit training", un enchaînement d'exercices qui augmente progressivement le rythme cardiaque et brûle
+                    plus rapidement les graisses. </div>
+                <div class="btn">
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Burger -->
 
-
-    <h1 class="title">BASSSSSIC FITT</h1>
-
-    <!-- Section programmes -->
-    <section id="programs"></section>
-
-    <!-- Section coaches -->
-    <section id="coaches"></section>
-
-    <!-- Section contactUS -->
-    <section id="contactUs"></section>
-
-    <!-- Scripts -->
-    <script src="script.js"></script>
+    <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.venobox').venobox({
+                closeColor: '#f4f4f4',
+                spinColor: '#f4f4f4',
+                closeBackground: '#17191D',
+                overlayColor: 'rgba(23, 25, 29, 0.8)'
+            });
+        });
+    </script>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
 </body>
 
 </html>
