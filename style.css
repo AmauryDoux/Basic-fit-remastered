@@ -1,4 +1,5 @@
 
+
 :root {
     --accent: green;
     --overlay: rgba(23, 25, 29, 0.8):
@@ -146,6 +147,9 @@ video {
         background-position: center center;
         background-attachment: fixed;
     }
+    .program-title-akd {
+      font-size: .9em;
+    }
 }
 
 @media only screen and (max-width: 978px) {
@@ -190,7 +194,6 @@ video {
   .containGlobFooter {
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.7);
   }
 
   .slide_bd {
@@ -234,7 +237,7 @@ video {
     padding: 3%;
     border-radius: 5px;
     background: rgb(255, 100, 0);
-    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+    box-shadow: 3px 3px 5px rgba(247, 247, 247, 0.7) !important;
   }
     
   .slide_bd:nth-child(2n+1), .title_bd {
