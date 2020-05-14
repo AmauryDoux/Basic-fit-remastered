@@ -1,5 +1,5 @@
-h1 {
-  padding-top: 100px;
+body{
+    margin: 0;
 }
 
 :root {
@@ -35,8 +35,6 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
     color: black;
     background-color: black;
     background-image: url(images/164917.jpg);
