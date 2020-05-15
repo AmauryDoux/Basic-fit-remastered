@@ -98,3 +98,9 @@
         height: auto;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    .program-akd{
+        width: 80%;
+    }
+}
