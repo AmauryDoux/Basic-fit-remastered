@@ -197,7 +197,8 @@ body {
 h1 {
     font-size: 1.6em;
 }
-h4 {
+.titleMap {
+    font-size:1.6em !important;
     color: rgba(247, 247, 247, 0.7);
 }
 
@@ -218,6 +219,7 @@ h5 {
     position: relative;
     padding-bottom: 2%;
     padding-top: 2%;
+    margin-bottom: 2%;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
     transform-style: inherit;
     display: flex;
@@ -317,6 +319,8 @@ iframe {
     height: 350px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .containFooter_bd {
@@ -597,6 +601,7 @@ footer li a:hover {
         justify-content: center;
         align-items: center;
         align-content: center;
+        
     } 
 
     .img_bd {
