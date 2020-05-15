@@ -44,6 +44,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 14px 40px;
+    height: 100%;
 }
 
 .card {
@@ -148,12 +149,23 @@ video {
     .program-title-akd {
         font-size: .9em;
     }
+    
+    .card {
+        height: auto;
+    }
+    
+    .card .bottom-text {
+        opacity: 1;
+        visibility: visible;
+    }
+ 
 }
 
 @media only screen and (max-width: 978px) {
     .container {
         flex-wrap: wrap;
         flex-direction: column;
+        height: auto;
     }
     .card {
         max-width: 700px;
